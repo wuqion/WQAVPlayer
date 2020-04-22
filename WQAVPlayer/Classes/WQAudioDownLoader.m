@@ -73,7 +73,6 @@ didReceiveResponse:(NSHTTPURLResponse *)response
 didReceiveData:(NSData *)data
 {
     self.loadedSize += data.length;
-    NSLog(@"已经现在：%d",self.loadedSize);
     [self.outputStream write:data.bytes maxLength:data.length];
     if ([self.delegate respondsToSelector:@selector(downLoading)]) {
         [self.delegate downLoading];

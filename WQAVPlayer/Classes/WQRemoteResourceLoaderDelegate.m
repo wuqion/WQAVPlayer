@@ -163,7 +163,7 @@
     NSData * data = [NSData dataWithContentsOfFile:[WQRemoteAudioFile cacheFilePath:url] options:(NSDataReadingMappedIfSafe) error:nil];
     long long requestOffset = loadingRequest.dataRequest.requestedOffset;
     NSInteger requsetLength = loadingRequest.dataRequest.requestedLength;
-    NSData * subData = [data subdataWithRange:NSMakeRange(requestOffset, requsetLength)];
+    NSData * subData = [data subdataWithRange:NSMakeRange((NSInteger)requestOffset, (NSInteger)requsetLength)];
     
     [loadingRequest.dataRequest respondWithData:subData];
     [loadingRequest finishLoading];
