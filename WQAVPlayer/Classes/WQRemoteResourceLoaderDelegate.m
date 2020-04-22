@@ -70,7 +70,7 @@
     //3.2当请求的资源，开始点 > 开始的下载点+ 下载点长度 + 666（自定义的）
     if (requestOffset < self.downLoader.offset  || requestOffset > self.downLoader.offset +self.downLoader.loadedSize + 666) {//有正在下载，需要重新下载
         //开始现在数据（根据请求的信息，url，requestOffset,requestLength）
-        NSLog(@"重新x下载%ld",requestOffset);
+//        NSLog(@"重新x下载%ld",requestOffset);
          [self.downLoader downLoaderWith:httpURL offset:requestOffset];
         return YES;
     }
@@ -125,7 +125,7 @@
         long long resposeOffset = requestOffset - self.downLoader.offset;
         long long resposeLength = MIN(data.length - resposeOffset, MIN(self.downLoader.offset + self.downLoader.loadedSize - requestOffset,requestLength))  ;
 
-        NSData * subData = [data subdataWithRange:NSMakeRange(resposeOffset, resposeLength)];
+        NSData * subData = [data subdataWithRange:NSMakeRange((NSInteger)resposeOffset, (NSInteger)resposeLength)];
         [loadingRequest.dataRequest respondWithData:subData];
         //3.完成请求(必须把f所有的g关于这个请求的区间数据，都返回之后，才能完成这个请求)
         if (requestLength == resposeLength) {
