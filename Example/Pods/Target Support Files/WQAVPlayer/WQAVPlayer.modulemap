@@ -1,0 +1,6 @@
+framework module WQAVPlayer {
+  umbrella header "WQAVPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

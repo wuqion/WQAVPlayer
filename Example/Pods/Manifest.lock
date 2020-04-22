@@ -1,0 +1,16 @@
+PODS:
+  - WQAVPlayer (0.1.0)
+
+DEPENDENCIES:
+  - WQAVPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  WQAVPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WQAVPlayer: d7594b0098c19026a2f9f1c7ae04b396fac010f5
+
+PODFILE CHECKSUM: 79b4bff5605c6622a3ed36546edfff330cf51ee6
+
+COCOAPODS: 1.8.4

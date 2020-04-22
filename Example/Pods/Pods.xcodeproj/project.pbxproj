@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B338CC1F5439D1E38523548AD2FCD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2005EBFFEC27C5C42D6E9A532679270D /* WQAVPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F43A3B8922EE61099C88DBB1185F20F /* WQAVPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2150623E4BE95EEF549D1DE8073F69E4 /* Pods-WQAVPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2858BB235C974C515680F6EBC622C0A /* Pods-WQAVPlayer_Tests-dummy.m */; };
+		24C15ECAAA3AA22B629718AB7D75B808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		27BE8E0745274629FB9BA0DE18DB2F60 /* Pods-WQAVPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1713973E8A74AB77A07B3C60C8A5AAE8 /* Pods-WQAVPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314F20E6AAAC6E68969565FDFB9693D7 /* WQRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A74FB02EF6A79C2AEA6906FADDF49616 /* WQRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		571113739FD2C63B324026F29149001B /* WQAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F60E72212749AE5CAED0A071A597F /* WQAVPlayer-dummy.m */; };
+		5A76DE7F9A4AF834DD46BC337A0A6801 /* Pods-WQAVPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EADCA4761AFF47BDA0F1028F21FAC939 /* Pods-WQAVPlayer_Example-dummy.m */; };
+		7579369313D497BE7A41A43E640BCEE5 /* Pods-WQAVPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEA654FF916BE6DD047936FEB6F0774 /* Pods-WQAVPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D43BDDDCE9D070ACEEF42CBCBF0D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA3073C68174937EC303052D41991F2B /* WQRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C174FCF4FEF164AAE64815119F771BE8 /* WQRemotePlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFA60F71FEADFFC67DCB2CB376DD38A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F5EDD8CE625032CB83B70980FAFCD7;
+			remoteInfo = WQAVPlayer;
+		};
+		CDECCD5454782245D9B9D6D8DBF6B184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F046DD615B049CB79271CB1F72EC6DF2;
+			remoteInfo = "Pods-WQAVPlayer_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A6F94F34749E2F807FF848BEF802DD /* Pods-WQAVPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQAVPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		10E94E450D156E43ED96FE4D12AC26E8 /* Pods-WQAVPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQAVPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15A90BBCDCD2ED26215A32374B7007B7 /* Pods_WQAVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQAVPlayer_Example.framework; path = "Pods-WQAVPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1713973E8A74AB77A07B3C60C8A5AAE8 /* Pods-WQAVPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQAVPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1857832F39F03F41855DE79396DE23E5 /* Pods-WQAVPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AFCFD032BB9473B107D3D9AC913D67C /* WQAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQAVPlayer.framework; path = WQAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFCE661085B7ED0F8747514A9AE72F1 /* WQAVPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQAVPlayer.modulemap; sourceTree = "<group>"; };
+		3D7C51597EE37E8142EFE40D98B471C3 /* Pods-WQAVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3F43A3B8922EE61099C88DBB1185F20F /* WQAVPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAVPlayer-umbrella.h"; sourceTree = "<group>"; };
+		4AEA654FF916BE6DD047936FEB6F0774 /* Pods-WQAVPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQAVPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		4D6F60E72212749AE5CAED0A071A597F /* WQAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQAVPlayer-dummy.m"; sourceTree = "<group>"; };
+		6CBA38A1D3F699296364A89B60121891 /* Pods-WQAVPlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Tests-Info.plist"; sourceTree = "<group>"; };
+		73D79E9D968AA59CE433BC81200EDE3A /* Pods-WQAVPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQAVPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQAVPlayer.xcconfig; sourceTree = "<group>"; };
+		81B29F516267927FCDFCB083B36E96DA /* Pods-WQAVPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		855FAF14DED05EA10090362DB8EE0124 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		87DF64B9E0E1E08E34B88C9BCA0002E8 /* WQAVPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WQAVPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9489812C652A5BDB2D60358694E92EEE /* Pods-WQAVPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQAVPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		977D051EB43B83E195ED31525A3784EC /* Pods-WQAVPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2858BB235C974C515680F6EBC622C0A /* Pods-WQAVPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQAVPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		A74FB02EF6A79C2AEA6906FADDF49616 /* WQRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQRemotePlayer.h; path = WQAVPlayer/Classes/WQRemotePlayer.h; sourceTree = "<group>"; };
+		B25ED7A8B5A1A0DA6A56797475BD4BE6 /* Pods-WQAVPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Example-Info.plist"; sourceTree = "<group>"; };
+		BC531A401385906076B0A583565D0D7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C174FCF4FEF164AAE64815119F771BE8 /* WQRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQRemotePlayer.m; path = WQAVPlayer/Classes/WQRemotePlayer.m; sourceTree = "<group>"; };
+		E3C80BFFD328BAF7CEAF99D7BBA1E240 /* WQAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAVPlayer-prefix.pch"; sourceTree = "<group>"; };
+		E76A6728503FB1A187E4024ADF82896D /* Pods-WQAVPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQAVPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EADCA4761AFF47BDA0F1028F21FAC939 /* Pods-WQAVPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQAVPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		F2314502701DDF880823F3A9B1B87528 /* Pods_WQAVPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQAVPlayer_Tests.framework; path = "Pods-WQAVPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BD69DD6877D2B79C1E587DC49ED264 /* Pods-WQAVPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1706CAF7AEB3EC7B9A61E2D5D328FA /* WQAVPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WQAVPlayer-Info.plist"; sourceTree = "<group>"; };
+		FE891A43F4854D8E72FD6F298D3C78C1 /* Pods-WQAVPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88321A52879E9A900A8D1D4C5A3F6FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C15ECAAA3AA22B629718AB7D75B808 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DB69EA032EB07BC3292F2C1E0C858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D43BDDDCE9D070ACEEF42CBCBF0D1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECADB7438B9DD011E2ADC06DC8E33C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B338CC1F5439D1E38523548AD2FCD35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D3BCDF6B9C33CEACB35340A5BF5D9CA /* Pods-WQAVPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73D79E9D968AA59CE433BC81200EDE3A /* Pods-WQAVPlayer_Tests.modulemap */,
+				10E94E450D156E43ED96FE4D12AC26E8 /* Pods-WQAVPlayer_Tests-acknowledgements.markdown */,
+				977D051EB43B83E195ED31525A3784EC /* Pods-WQAVPlayer_Tests-acknowledgements.plist */,
+				A2858BB235C974C515680F6EBC622C0A /* Pods-WQAVPlayer_Tests-dummy.m */,
+				6CBA38A1D3F699296364A89B60121891 /* Pods-WQAVPlayer_Tests-Info.plist */,
+				1713973E8A74AB77A07B3C60C8A5AAE8 /* Pods-WQAVPlayer_Tests-umbrella.h */,
+				F2BD69DD6877D2B79C1E587DC49ED264 /* Pods-WQAVPlayer_Tests.debug.xcconfig */,
+				1857832F39F03F41855DE79396DE23E5 /* Pods-WQAVPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-WQAVPlayer_Tests";
+			path = "Target Support Files/Pods-WQAVPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		0DB7C90B5D1CC2DB4096020F8264FDDA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C553D95EAAA8E1DF8C59BD326211024E /* Pods-WQAVPlayer_Example */,
+				0D3BCDF6B9C33CEACB35340A5BF5D9CA /* Pods-WQAVPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E2C726278804D2A1DD761828D506933 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				855FAF14DED05EA10090362DB8EE0124 /* LICENSE */,
+				BC531A401385906076B0A583565D0D7A /* README.md */,
+				87DF64B9E0E1E08E34B88C9BCA0002E8 /* WQAVPlayer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BCC9DE2013977E29B467DDB39D80B763 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BFCE661085B7ED0F8747514A9AE72F1 /* WQAVPlayer.modulemap */,
+				7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */,
+				4D6F60E72212749AE5CAED0A071A597F /* WQAVPlayer-dummy.m */,
+				FE1706CAF7AEB3EC7B9A61E2D5D328FA /* WQAVPlayer-Info.plist */,
+				E3C80BFFD328BAF7CEAF99D7BBA1E240 /* WQAVPlayer-prefix.pch */,
+				3F43A3B8922EE61099C88DBB1185F20F /* WQAVPlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WQAVPlayer";
+			sourceTree = "<group>";
+		};
+		C01FEEED4A705C9C8E51C6EDDDF2E308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A90BBCDCD2ED26215A32374B7007B7 /* Pods_WQAVPlayer_Example.framework */,
+				F2314502701DDF880823F3A9B1B87528 /* Pods_WQAVPlayer_Tests.framework */,
+				3AFCFD032BB9473B107D3D9AC913D67C /* WQAVPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1D7210DEC5DC324664303A27743B449 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1766A69321EAB5CD1969E5F3C77FD /* WQAVPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C553D95EAAA8E1DF8C59BD326211024E /* Pods-WQAVPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9489812C652A5BDB2D60358694E92EEE /* Pods-WQAVPlayer_Example.modulemap */,
+				E76A6728503FB1A187E4024ADF82896D /* Pods-WQAVPlayer_Example-acknowledgements.markdown */,
+				81B29F516267927FCDFCB083B36E96DA /* Pods-WQAVPlayer_Example-acknowledgements.plist */,
+				EADCA4761AFF47BDA0F1028F21FAC939 /* Pods-WQAVPlayer_Example-dummy.m */,
+				00A6F94F34749E2F807FF848BEF802DD /* Pods-WQAVPlayer_Example-frameworks.sh */,
+				B25ED7A8B5A1A0DA6A56797475BD4BE6 /* Pods-WQAVPlayer_Example-Info.plist */,
+				4AEA654FF916BE6DD047936FEB6F0774 /* Pods-WQAVPlayer_Example-umbrella.h */,
+				3D7C51597EE37E8142EFE40D98B471C3 /* Pods-WQAVPlayer_Example.debug.xcconfig */,
+				FE891A43F4854D8E72FD6F298D3C78C1 /* Pods-WQAVPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-WQAVPlayer_Example";
+			path = "Target Support Files/Pods-WQAVPlayer_Example";
+			sourceTree = "<group>";
+		};
+		C7B1766A69321EAB5CD1969E5F3C77FD /* WQAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A74FB02EF6A79C2AEA6906FADDF49616 /* WQRemotePlayer.h */,
+				C174FCF4FEF164AAE64815119F771BE8 /* WQRemotePlayer.m */,
+				1E2C726278804D2A1DD761828D506933 /* Pod */,
+				BCC9DE2013977E29B467DDB39D80B763 /* Support Files */,
+			);
+			name = WQAVPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C1D7210DEC5DC324664303A27743B449 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C01FEEED4A705C9C8E51C6EDDDF2E308 /* Products */,
+				0DB7C90B5D1CC2DB4096020F8264FDDA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A0078693DD02B62472FC45A0D41CC27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BE8E0745274629FB9BA0DE18DB2F60 /* Pods-WQAVPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CB9CDDF44551E23D7F864AC4F3BB0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2005EBFFEC27C5C42D6E9A532679270D /* WQAVPlayer-umbrella.h in Headers */,
+				314F20E6AAAC6E68969565FDFB9693D7 /* WQRemotePlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F692649FCBF7FB35766532484726D41E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7579369313D497BE7A41A43E640BCEE5 /* Pods-WQAVPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9F5EDD8CE625032CB83B70980FAFCD7 /* WQAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53807F8CB7C5CDC3E02ADBADC8E1BF8C /* Build configuration list for PBXNativeTarget "WQAVPlayer" */;
+			buildPhases = (
+				75CB9CDDF44551E23D7F864AC4F3BB0A /* Headers */,
+				62C734DF4C568D0FB96BD8281EE2E829 /* Sources */,
+				88321A52879E9A900A8D1D4C5A3F6FE0 /* Frameworks */,
+				EC9E1ACC6766C5AAB45F4E612D94DE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQAVPlayer;
+			productName = WQAVPlayer;
+			productReference = 3AFCFD032BB9473B107D3D9AC913D67C /* WQAVPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECA6DE473888B3E6F503E255EEE3F011 /* Pods-WQAVPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247CE4CB657C844040A816F780AC02A3 /* Build configuration list for PBXNativeTarget "Pods-WQAVPlayer_Tests" */;
+			buildPhases = (
+				4A0078693DD02B62472FC45A0D41CC27 /* Headers */,
+				B86722023AB7EDD49E241981F9236568 /* Sources */,
+				9ECADB7438B9DD011E2ADC06DC8E33C8 /* Frameworks */,
+				B523E34517CB06C9C0F7226AF6A25E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7F93C8CD03A08140C7037DC564DDA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WQAVPlayer_Tests";
+			productName = "Pods-WQAVPlayer_Tests";
+			productReference = F2314502701DDF880823F3A9B1B87528 /* Pods_WQAVPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F046DD615B049CB79271CB1F72EC6DF2 /* Pods-WQAVPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDEBE9461CFC0809F35E19BDC9325E3 /* Build configuration list for PBXNativeTarget "Pods-WQAVPlayer_Example" */;
+			buildPhases = (
+				F692649FCBF7FB35766532484726D41E /* Headers */,
+				1E368120AD8E0F2B50426A47D8E0AE86 /* Sources */,
+				92DB69EA032EB07BC3292F2C1E0C858F /* Frameworks */,
+				E917CA1387A0CCB4063A0CC9B64C20D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F39C8186BACD886A7C37D7B420B8534 /* PBXTargetDependency */,
+			);
+			name = "Pods-WQAVPlayer_Example";
+			productName = "Pods-WQAVPlayer_Example";
+			productReference = 15A90BBCDCD2ED26215A32374B7007B7 /* Pods_WQAVPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C01FEEED4A705C9C8E51C6EDDDF2E308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F046DD615B049CB79271CB1F72EC6DF2 /* Pods-WQAVPlayer_Example */,
+				ECA6DE473888B3E6F503E255EEE3F011 /* Pods-WQAVPlayer_Tests */,
+				C9F5EDD8CE625032CB83B70980FAFCD7 /* WQAVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B523E34517CB06C9C0F7226AF6A25E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E917CA1387A0CCB4063A0CC9B64C20D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E1ACC6766C5AAB45F4E612D94DE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E368120AD8E0F2B50426A47D8E0AE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76DE7F9A4AF834DD46BC337A0A6801 /* Pods-WQAVPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C734DF4C568D0FB96BD8281EE2E829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571113739FD2C63B324026F29149001B /* WQAVPlayer-dummy.m in Sources */,
+				AA3073C68174937EC303052D41991F2B /* WQRemotePlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86722023AB7EDD49E241981F9236568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2150623E4BE95EEF549D1DE8073F69E4 /* Pods-WQAVPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F39C8186BACD886A7C37D7B420B8534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WQAVPlayer;
+			target = C9F5EDD8CE625032CB83B70980FAFCD7 /* WQAVPlayer */;
+			targetProxy = AFA60F71FEADFFC67DCB2CB376DD38A9 /* PBXContainerItemProxy */;
+		};
+		AB7F93C8CD03A08140C7037DC564DDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WQAVPlayer_Example";
+			target = F046DD615B049CB79271CB1F72EC6DF2 /* Pods-WQAVPlayer_Example */;
+			targetProxy = CDECCD5454782245D9B9D6D8DBF6B184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		117E1B2B5CCD265E9C474E778A970D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BD69DD6877D2B79C1E587DC49ED264 /* Pods-WQAVPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQAVPlayer_Tests/Pods-WQAVPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQAVPlayer_Tests/Pods-WQAVPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19A22F142F16DA4046F88C4B3AAFBE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7C51597EE37E8142EFE40D98B471C3 /* Pods-WQAVPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQAVPlayer_Example/Pods-WQAVPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQAVPlayer_Example/Pods-WQAVPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B7A7A1D96FBC29478E0A1B1C2643740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1857832F39F03F41855DE79396DE23E5 /* Pods-WQAVPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQAVPlayer_Tests/Pods-WQAVPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQAVPlayer_Tests/Pods-WQAVPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B73AC7431301A5D28497A5EF5781A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE891A43F4854D8E72FD6F298D3C78C1 /* Pods-WQAVPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQAVPlayer_Example/Pods-WQAVPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQAVPlayer_Example/Pods-WQAVPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5D5CD583E7F6138E267F4D0D8E9460DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQAVPlayer/WQAVPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQAVPlayer/WQAVPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQAVPlayer/WQAVPlayer.modulemap";
+				PRODUCT_MODULE_NAME = WQAVPlayer;
+				PRODUCT_NAME = WQAVPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D619D8E29511B11D3488B99B15794099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQAVPlayer/WQAVPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQAVPlayer/WQAVPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQAVPlayer/WQAVPlayer.modulemap";
+				PRODUCT_MODULE_NAME = WQAVPlayer;
+				PRODUCT_NAME = WQAVPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247CE4CB657C844040A816F780AC02A3 /* Build configuration list for PBXNativeTarget "Pods-WQAVPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117E1B2B5CCD265E9C474E778A970D58 /* Debug */,
+				3B7A7A1D96FBC29478E0A1B1C2643740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDEBE9461CFC0809F35E19BDC9325E3 /* Build configuration list for PBXNativeTarget "Pods-WQAVPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A22F142F16DA4046F88C4B3AAFBE75 /* Debug */,
+				4B73AC7431301A5D28497A5EF5781A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53807F8CB7C5CDC3E02ADBADC8E1BF8C /* Build configuration list for PBXNativeTarget "WQAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D619D8E29511B11D3488B99B15794099 /* Debug */,
+				5D5CD583E7F6138E267F4D0D8E9460DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
