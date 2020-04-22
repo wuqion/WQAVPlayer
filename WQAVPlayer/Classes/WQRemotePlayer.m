@@ -234,10 +234,10 @@
 }
 -(NSString *)cunrrenTimeFormat
 {
-    return  [NSString stringWithFormat:@"%02zd:%02zd",(int)self.cunrrenTime/60,(int)self.cunrrenTime%60];
+    return  [NSString stringWithFormat:@"%02zd:%02zd",(long)self.cunrrenTime/60,(long)self.cunrrenTime%60];
 }
 -(NSString *)totalTimeFormat
 {
-    return  [NSString stringWithFormat:@"%02zd:%02zd",(int)self.totalTime/60,(int)self.totalTime%60];
+    return  [NSString stringWithFormat:@"%02zd:%02zd",(long)self.totalTime/60,(long)self.totalTime%60];
 }
 @end
