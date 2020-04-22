@@ -10,7 +10,11 @@
 #endif
 #endif
 
+#import "NSURL+SZ.h"
+#import "WQAudioDownLoader.h"
+#import "WQRemoteAudioFile.h"
 #import "WQRemotePlayer.h"
+#import "WQRemoteResourceLoaderDelegate.h"
 
 FOUNDATION_EXPORT double WQAVPlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char WQAVPlayerVersionString[];

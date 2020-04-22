@@ -78,8 +78,10 @@
     [self timer];
 }
 - (void)play {
-    NSURL * url = [NSURL URLWithString:@"http://96.ierge.cn/14/222/445723.mp3?v=0524"];
-    [[WQRemotePlayer shareInstance] playWithURL:url];
+//
+//http://96.ierge.cn/14/222/445723.mp3?v=0524
+    NSURL * url = [NSURL URLWithString:@"http://mp3.9ku.com/m4a/186947.m4a"];
+    [[WQRemotePlayer shareInstance] playWithURL:url isCache:YES];
     
 }
 - (void)volumeChangeSlider:(UISlider *)sender {

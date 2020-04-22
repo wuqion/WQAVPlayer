@@ -1,9 +1,9 @@
 {
   "name": "WQAVPlayer",
   "version": "0.1.0",
-  "summary": "A short description of WQAVPlayer.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wuqiongaia@163.com/WQAVPlayer",
+  "summary": "简单版音乐播放器",
+  "description": "简单版音乐播放器，",
+  "homepage": "https://github.com/wuqion/WQAVPlayer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "wuqiongaia@163.com": "wuqiongaia@163.com"
   },
   "source": {
-    "git": "https://github.com/wuqiongaia@163.com/WQAVPlayer.git",
+    "git": "https://github.com/wuqion/WQAVPlayer.git",
     "tag": "0.1.0"
   },
   "platforms": {

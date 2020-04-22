@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094924A59733589EA25AF1A59661E345 /* WQRemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A53EE632A3CDEECA705232CB2FCA02 /* WQRemoteAudioFile.m */; };
+		12AC38164C521529BD25BE39BD695ACA /* WQRemoteAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8324FAB742D0FB7738C2862AD63346C1 /* WQRemoteAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17508719254AC40E009448E011C7423C /* NSURL+SZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BA0A8E33166EEF7BFFFA56630397C3 /* NSURL+SZ.m */; };
 		1B338CC1F5439D1E38523548AD2FCD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2005EBFFEC27C5C42D6E9A532679270D /* WQAVPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F43A3B8922EE61099C88DBB1185F20F /* WQAVPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB1DC92D0F0A069C6AA65C30BB0C26D /* WQRemoteResourceLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA7057D12847CC6EB43631655179BCB /* WQRemoteResourceLoaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2150623E4BE95EEF549D1DE8073F69E4 /* Pods-WQAVPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2858BB235C974C515680F6EBC622C0A /* Pods-WQAVPlayer_Tests-dummy.m */; };
-		24C15ECAAA3AA22B629718AB7D75B808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		27BE8E0745274629FB9BA0DE18DB2F60 /* Pods-WQAVPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1713973E8A74AB77A07B3C60C8A5AAE8 /* Pods-WQAVPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		314F20E6AAAC6E68969565FDFB9693D7 /* WQRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A74FB02EF6A79C2AEA6906FADDF49616 /* WQRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		571113739FD2C63B324026F29149001B /* WQAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F60E72212749AE5CAED0A071A597F /* WQAVPlayer-dummy.m */; };
+		29F993DD9367A25947976ABAFBFB7EA8 /* WQAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 380DDF8D09F9A3BD1FD902204BEBC728 /* WQAVPlayer-dummy.m */; };
+		54A2E4B73959A8D33A1CB579D5837A52 /* WQRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A474C20193DB133ACC911D763B2FF1 /* WQRemotePlayer.m */; };
 		5A76DE7F9A4AF834DD46BC337A0A6801 /* Pods-WQAVPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EADCA4761AFF47BDA0F1028F21FAC939 /* Pods-WQAVPlayer_Example-dummy.m */; };
 		7579369313D497BE7A41A43E640BCEE5 /* Pods-WQAVPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEA654FF916BE6DD047936FEB6F0774 /* Pods-WQAVPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CA575C8C708FCBFAEFD39AB68CCB733 /* NSURL+SZ.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A667AAFA534B0FE1B71D68E1D27D2DB /* NSURL+SZ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99D43BDDDCE9D070ACEEF42CBCBF0D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AA3073C68174937EC303052D41991F2B /* WQRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C174FCF4FEF164AAE64815119F771BE8 /* WQRemotePlayer.m */; };
+		B6F949E7208E00B4D0D4CBFCA0D366A0 /* WQRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BA98D198503B78FB9A88005DACA138 /* WQRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB364D204379152C285D94649EEB91EB /* WQAVPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FFCCE6A1AD45774D2121A604D6F145 /* WQAVPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A022CB844FD8AF8E1023E2AD839530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C5C43BD52447210F9ACDE9E9B3DEAA70 /* WQAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF692A108E7B9E39ACB43B42F45EDE5 /* WQAudioDownLoader.m */; };
+		F210A1876F2F05CDEC43F064B663078B /* WQAudioDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E3DD45209B776E800372B1E83A8508 /* WQAudioDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAAB150C8CDE30E6D760214FF21C2DF6 /* WQRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C4D85E7292FF5EA8BD3C25287095B /* WQRemoteResourceLoaderDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,47 +49,47 @@
 		00A6F94F34749E2F807FF848BEF802DD /* Pods-WQAVPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQAVPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		10E94E450D156E43ED96FE4D12AC26E8 /* Pods-WQAVPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQAVPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		15A90BBCDCD2ED26215A32374B7007B7 /* Pods_WQAVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQAVPlayer_Example.framework; path = "Pods-WQAVPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E3DD45209B776E800372B1E83A8508 /* WQAudioDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQAudioDownLoader.h; path = WQAVPlayer/Classes/WQAudioDownLoader.h; sourceTree = "<group>"; };
 		1713973E8A74AB77A07B3C60C8A5AAE8 /* Pods-WQAVPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQAVPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1857832F39F03F41855DE79396DE23E5 /* Pods-WQAVPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36B3A33A36834179158A6D859514964D /* WQAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAVPlayer-prefix.pch"; sourceTree = "<group>"; };
+		380DDF8D09F9A3BD1FD902204BEBC728 /* WQAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQAVPlayer-dummy.m"; sourceTree = "<group>"; };
 		3AFCFD032BB9473B107D3D9AC913D67C /* WQAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQAVPlayer.framework; path = WQAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BFCE661085B7ED0F8747514A9AE72F1 /* WQAVPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQAVPlayer.modulemap; sourceTree = "<group>"; };
 		3D7C51597EE37E8142EFE40D98B471C3 /* Pods-WQAVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3F43A3B8922EE61099C88DBB1185F20F /* WQAVPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAVPlayer-umbrella.h"; sourceTree = "<group>"; };
+		3EA7057D12847CC6EB43631655179BCB /* WQRemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQRemoteResourceLoaderDelegate.h; path = WQAVPlayer/Classes/WQRemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		44BA98D198503B78FB9A88005DACA138 /* WQRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQRemotePlayer.h; path = WQAVPlayer/Classes/WQRemotePlayer.h; sourceTree = "<group>"; };
 		4AEA654FF916BE6DD047936FEB6F0774 /* Pods-WQAVPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQAVPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
-		4D6F60E72212749AE5CAED0A071A597F /* WQAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQAVPlayer-dummy.m"; sourceTree = "<group>"; };
+		4B3C4D85E7292FF5EA8BD3C25287095B /* WQRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQRemoteResourceLoaderDelegate.m; path = WQAVPlayer/Classes/WQRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		6AA725ADF9B236433B72AC9CAC8102A5 /* WQAVPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WQAVPlayer-Info.plist"; sourceTree = "<group>"; };
 		6CBA38A1D3F699296364A89B60121891 /* Pods-WQAVPlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Tests-Info.plist"; sourceTree = "<group>"; };
 		73D79E9D968AA59CE433BC81200EDE3A /* Pods-WQAVPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQAVPlayer_Tests.modulemap"; sourceTree = "<group>"; };
-		7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQAVPlayer.xcconfig; sourceTree = "<group>"; };
 		81B29F516267927FCDFCB083B36E96DA /* Pods-WQAVPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		855FAF14DED05EA10090362DB8EE0124 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		87DF64B9E0E1E08E34B88C9BCA0002E8 /* WQAVPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WQAVPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8324FAB742D0FB7738C2862AD63346C1 /* WQRemoteAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQRemoteAudioFile.h; path = WQAVPlayer/Classes/WQRemoteAudioFile.h; sourceTree = "<group>"; };
+		91BA0A8E33166EEF7BFFFA56630397C3 /* NSURL+SZ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SZ.m"; path = "WQAVPlayer/Classes/NSURL+SZ.m"; sourceTree = "<group>"; };
 		9489812C652A5BDB2D60358694E92EEE /* Pods-WQAVPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQAVPlayer_Example.modulemap"; sourceTree = "<group>"; };
 		977D051EB43B83E195ED31525A3784EC /* Pods-WQAVPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98A53EE632A3CDEECA705232CB2FCA02 /* WQRemoteAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQRemoteAudioFile.m; path = WQAVPlayer/Classes/WQRemoteAudioFile.m; sourceTree = "<group>"; };
+		99FFCCE6A1AD45774D2121A604D6F145 /* WQAVPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAVPlayer-umbrella.h"; sourceTree = "<group>"; };
+		9A667AAFA534B0FE1B71D68E1D27D2DB /* NSURL+SZ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SZ.h"; path = "WQAVPlayer/Classes/NSURL+SZ.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2858BB235C974C515680F6EBC622C0A /* Pods-WQAVPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQAVPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
-		A74FB02EF6A79C2AEA6906FADDF49616 /* WQRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQRemotePlayer.h; path = WQAVPlayer/Classes/WQRemotePlayer.h; sourceTree = "<group>"; };
 		B25ED7A8B5A1A0DA6A56797475BD4BE6 /* Pods-WQAVPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAVPlayer_Example-Info.plist"; sourceTree = "<group>"; };
-		BC531A401385906076B0A583565D0D7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C174FCF4FEF164AAE64815119F771BE8 /* WQRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQRemotePlayer.m; path = WQAVPlayer/Classes/WQRemotePlayer.m; sourceTree = "<group>"; };
-		E3C80BFFD328BAF7CEAF99D7BBA1E240 /* WQAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAVPlayer-prefix.pch"; sourceTree = "<group>"; };
+		BED18A632E6A49AA81D40D4733FC65C2 /* WQAVPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQAVPlayer.modulemap; sourceTree = "<group>"; };
+		C28664DD505F3D132DA4C481FE84BF2F /* WQAVPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WQAVPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5DDA470530F356A841840E880D251EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D9EA2E40245BE4789F668B25DFD63D41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DEF692A108E7B9E39ACB43B42F45EDE5 /* WQAudioDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQAudioDownLoader.m; path = WQAVPlayer/Classes/WQAudioDownLoader.m; sourceTree = "<group>"; };
 		E76A6728503FB1A187E4024ADF82896D /* Pods-WQAVPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQAVPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EADCA4761AFF47BDA0F1028F21FAC939 /* Pods-WQAVPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQAVPlayer_Example-dummy.m"; sourceTree = "<group>"; };
 		F2314502701DDF880823F3A9B1B87528 /* Pods_WQAVPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQAVPlayer_Tests.framework; path = "Pods-WQAVPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A474C20193DB133ACC911D763B2FF1 /* WQRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQRemotePlayer.m; path = WQAVPlayer/Classes/WQRemotePlayer.m; sourceTree = "<group>"; };
 		F2BD69DD6877D2B79C1E587DC49ED264 /* Pods-WQAVPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE1706CAF7AEB3EC7B9A61E2D5D328FA /* WQAVPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WQAVPlayer-Info.plist"; sourceTree = "<group>"; };
+		F5893BB4BAEAB75AC26474D6E585DADF /* WQAVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQAVPlayer.xcconfig; sourceTree = "<group>"; };
 		FE891A43F4854D8E72FD6F298D3C78C1 /* Pods-WQAVPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAVPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		88321A52879E9A900A8D1D4C5A3F6FE0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24C15ECAAA3AA22B629718AB7D75B808 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		92DB69EA032EB07BC3292F2C1E0C858F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,9 +106,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA2E31EB1E8D470F7BD1DD44D775DC86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A022CB844FD8AF8E1023E2AD839530 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CF942EDE3603B9DE907607642938D52 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D4EFFC4567BD0211D0A98B132AA6428 /* WQAVPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		0D3BCDF6B9C33CEACB35340A5BF5D9CA /* Pods-WQAVPlayer_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,25 +150,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1E2C726278804D2A1DD761828D506933 /* Pod */ = {
+		3D4EFFC4567BD0211D0A98B132AA6428 /* WQAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				855FAF14DED05EA10090362DB8EE0124 /* LICENSE */,
-				BC531A401385906076B0A583565D0D7A /* README.md */,
-				87DF64B9E0E1E08E34B88C9BCA0002E8 /* WQAVPlayer.podspec */,
+				9A667AAFA534B0FE1B71D68E1D27D2DB /* NSURL+SZ.h */,
+				91BA0A8E33166EEF7BFFFA56630397C3 /* NSURL+SZ.m */,
+				15E3DD45209B776E800372B1E83A8508 /* WQAudioDownLoader.h */,
+				DEF692A108E7B9E39ACB43B42F45EDE5 /* WQAudioDownLoader.m */,
+				8324FAB742D0FB7738C2862AD63346C1 /* WQRemoteAudioFile.h */,
+				98A53EE632A3CDEECA705232CB2FCA02 /* WQRemoteAudioFile.m */,
+				44BA98D198503B78FB9A88005DACA138 /* WQRemotePlayer.h */,
+				F2A474C20193DB133ACC911D763B2FF1 /* WQRemotePlayer.m */,
+				3EA7057D12847CC6EB43631655179BCB /* WQRemoteResourceLoaderDelegate.h */,
+				4B3C4D85E7292FF5EA8BD3C25287095B /* WQRemoteResourceLoaderDelegate.m */,
+				4CA8C64D53B1C20AF1DE55B42BE9CB0D /* Pod */,
+				9848CF30DAF09C0EAA201BEC895CEA88 /* Support Files */,
+			);
+			name = WQAVPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4CA8C64D53B1C20AF1DE55B42BE9CB0D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDA470530F356A841840E880D251EE /* LICENSE */,
+				D9EA2E40245BE4789F668B25DFD63D41 /* README.md */,
+				C28664DD505F3D132DA4C481FE84BF2F /* WQAVPlayer.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		BCC9DE2013977E29B467DDB39D80B763 /* Support Files */ = {
+		9848CF30DAF09C0EAA201BEC895CEA88 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3BFCE661085B7ED0F8747514A9AE72F1 /* WQAVPlayer.modulemap */,
-				7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */,
-				4D6F60E72212749AE5CAED0A071A597F /* WQAVPlayer-dummy.m */,
-				FE1706CAF7AEB3EC7B9A61E2D5D328FA /* WQAVPlayer-Info.plist */,
-				E3C80BFFD328BAF7CEAF99D7BBA1E240 /* WQAVPlayer-prefix.pch */,
-				3F43A3B8922EE61099C88DBB1185F20F /* WQAVPlayer-umbrella.h */,
+				BED18A632E6A49AA81D40D4733FC65C2 /* WQAVPlayer.modulemap */,
+				F5893BB4BAEAB75AC26474D6E585DADF /* WQAVPlayer.xcconfig */,
+				380DDF8D09F9A3BD1FD902204BEBC728 /* WQAVPlayer-dummy.m */,
+				6AA725ADF9B236433B72AC9CAC8102A5 /* WQAVPlayer-Info.plist */,
+				36B3A33A36834179158A6D859514964D /* WQAVPlayer-prefix.pch */,
+				99FFCCE6A1AD45774D2121A604D6F145 /* WQAVPlayer-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WQAVPlayer";
@@ -168,14 +212,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C1D7210DEC5DC324664303A27743B449 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C7B1766A69321EAB5CD1969E5F3C77FD /* WQAVPlayer */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		C553D95EAAA8E1DF8C59BD326211024E /* Pods-WQAVPlayer_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,23 +229,11 @@
 			path = "Target Support Files/Pods-WQAVPlayer_Example";
 			sourceTree = "<group>";
 		};
-		C7B1766A69321EAB5CD1969E5F3C77FD /* WQAVPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				A74FB02EF6A79C2AEA6906FADDF49616 /* WQRemotePlayer.h */,
-				C174FCF4FEF164AAE64815119F771BE8 /* WQRemotePlayer.m */,
-				1E2C726278804D2A1DD761828D506933 /* Pod */,
-				BCC9DE2013977E29B467DDB39D80B763 /* Support Files */,
-			);
-			name = WQAVPlayer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C1D7210DEC5DC324664303A27743B449 /* Development Pods */,
+				0CF942EDE3603B9DE907607642938D52 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C01FEEED4A705C9C8E51C6EDDDF2E308 /* Products */,
 				0DB7C90B5D1CC2DB4096020F8264FDDA /* Targets Support Files */,
@@ -227,20 +251,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		276C6E1A3739EB9206DF1E4FD82561BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA575C8C708FCBFAEFD39AB68CCB733 /* NSURL+SZ.h in Headers */,
+				F210A1876F2F05CDEC43F064B663078B /* WQAudioDownLoader.h in Headers */,
+				BB364D204379152C285D94649EEB91EB /* WQAVPlayer-umbrella.h in Headers */,
+				12AC38164C521529BD25BE39BD695ACA /* WQRemoteAudioFile.h in Headers */,
+				B6F949E7208E00B4D0D4CBFCA0D366A0 /* WQRemotePlayer.h in Headers */,
+				1DB1DC92D0F0A069C6AA65C30BB0C26D /* WQRemoteResourceLoaderDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A0078693DD02B62472FC45A0D41CC27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				27BE8E0745274629FB9BA0DE18DB2F60 /* Pods-WQAVPlayer_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75CB9CDDF44551E23D7F864AC4F3BB0A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2005EBFFEC27C5C42D6E9A532679270D /* WQAVPlayer-umbrella.h in Headers */,
-				314F20E6AAAC6E68969565FDFB9693D7 /* WQRemotePlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +285,12 @@
 /* Begin PBXNativeTarget section */
 		C9F5EDD8CE625032CB83B70980FAFCD7 /* WQAVPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53807F8CB7C5CDC3E02ADBADC8E1BF8C /* Build configuration list for PBXNativeTarget "WQAVPlayer" */;
+			buildConfigurationList = E61AEB936E5DB7287B146301556E87B0 /* Build configuration list for PBXNativeTarget "WQAVPlayer" */;
 			buildPhases = (
-				75CB9CDDF44551E23D7F864AC4F3BB0A /* Headers */,
-				62C734DF4C568D0FB96BD8281EE2E829 /* Sources */,
-				88321A52879E9A900A8D1D4C5A3F6FE0 /* Frameworks */,
-				EC9E1ACC6766C5AAB45F4E612D94DE75 /* Resources */,
+				276C6E1A3739EB9206DF1E4FD82561BA /* Headers */,
+				698084DACA2871DCFB979E3CA727F463 /* Sources */,
+				EA2E31EB1E8D470F7BD1DD44D775DC86 /* Frameworks */,
+				5BE0057195C36E86EB5429ADFCE0D5E9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,6 +369,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5BE0057195C36E86EB5429ADFCE0D5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B523E34517CB06C9C0F7226AF6A25E73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,13 +384,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E917CA1387A0CCB4063A0CC9B64C20D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC9E1ACC6766C5AAB45F4E612D94DE75 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,12 +401,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C734DF4C568D0FB96BD8281EE2E829 /* Sources */ = {
+		698084DACA2871DCFB979E3CA727F463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571113739FD2C63B324026F29149001B /* WQAVPlayer-dummy.m in Sources */,
-				AA3073C68174937EC303052D41991F2B /* WQRemotePlayer.m in Sources */,
+				17508719254AC40E009448E011C7423C /* NSURL+SZ.m in Sources */,
+				C5C43BD52447210F9ACDE9E9B3DEAA70 /* WQAudioDownLoader.m in Sources */,
+				29F993DD9367A25947976ABAFBFB7EA8 /* WQAVPlayer-dummy.m in Sources */,
+				094924A59733589EA25AF1A59661E345 /* WQRemoteAudioFile.m in Sources */,
+				54A2E4B73959A8D33A1CB579D5837A52 /* WQRemotePlayer.m in Sources */,
+				FAAB150C8CDE30E6D760214FF21C2DF6 /* WQRemoteResourceLoaderDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,9 +634,9 @@
 			};
 			name = Release;
 		};
-		5D5CD583E7F6138E267F4D0D8E9460DA /* Release */ = {
+		786B05425763D75C129BB0AEB967F0BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */;
+			baseConfigurationReference = F5893BB4BAEAB75AC26474D6E585DADF /* WQAVPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -698,9 +730,9 @@
 			};
 			name = Debug;
 		};
-		D619D8E29511B11D3488B99B15794099 /* Debug */ = {
+		B46BD29E4EEEB2312C81E16839C32AB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AAE7084049F50E5388CC4EB4AF2B911 /* WQAVPlayer.xcconfig */;
+			baseConfigurationReference = F5893BB4BAEAB75AC26474D6E585DADF /* WQAVPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -759,11 +791,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53807F8CB7C5CDC3E02ADBADC8E1BF8C /* Build configuration list for PBXNativeTarget "WQAVPlayer" */ = {
+		E61AEB936E5DB7287B146301556E87B0 /* Build configuration list for PBXNativeTarget "WQAVPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D619D8E29511B11D3488B99B15794099 /* Debug */,
-				5D5CD583E7F6138E267F4D0D8E9460DA /* Release */,
+				B46BD29E4EEEB2312C81E16839C32AB0 /* Debug */,
+				786B05425763D75C129BB0AEB967F0BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

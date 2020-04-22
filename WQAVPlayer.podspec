@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WQAVPlayer'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '简单版音乐播放器'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "简单版音乐播放器，"
+  s.description      = "简单版音乐播放器，加入缓存到本地"
 
   s.homepage         = 'https://github.com/wuqion/WQAVPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

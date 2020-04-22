@@ -8,6 +8,8 @@
 
 #import "WQRemotePlayer.h"
 #import <AVFoundation/AVFoundation.h>
+#import "WQRemoteResourceLoaderDelegate.h"
+#import "NSURL+SZ.h"
 
 @interface WQRemotePlayer ()
 {
@@ -15,6 +17,7 @@
 }
 
 @property(nonatomic, strong)AVPlayer * player;
+@property(nonatomic, strong)WQRemoteResourceLoaderDelegate * resourceLoaderDelegate;
 
 @end
 
@@ -30,7 +33,8 @@
 }
 
 
--(void)playWithURL:(NSURL *)url{
+-(void)playWithURL:(NSURL *)url isCache:(BOOL)isCache
+{
     NSURL * currentURL = [(AVURLAsset *)self.player.currentItem.asset URL];
     if ([_url isEqual:currentURL]) {
         NSLog(@"当前播放任务已存在");
@@ -38,8 +42,21 @@
         return;
     }
     _url = url;
+    if (isCache) {
+        //重点，必须改协议（给数据流切段），不然不走WQRemoteResourceLoaderDelegate代理
+           _url = [_url steamingURL];
+    }
+   
     //资源的请求
-    AVURLAsset * asset = [AVURLAsset assetWithURL:url];
+    AVURLAsset * asset = [AVURLAsset assetWithURL:_url];
+    //关于音频的网络请求，是c通过这个对象s，调用代理的相关方法，进行加载的
+//    asset.resourceLoader
+   //上面url没有改的时候这个，没有意义，
+  {
+    self.resourceLoaderDelegate = [WQRemoteResourceLoaderDelegate new];
+    [asset.resourceLoader setDelegate:self.resourceLoaderDelegate queue:dispatch_get_main_queue()
+     ];
+  }
     if (self.player.currentItem) {//防止重复播放崩溃
           [self removeObserver];
       }
@@ -47,9 +64,12 @@
     AVPlayerItem * item = [AVPlayerItem playerItemWithAsset:asset];
     //坚挺状态
     [item addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
+    //监听当前的资源是否已经准备足够加载了（播放了）
     [item addObserver:self forKeyPath:@"playbackLikelyToKeepUp" options:NSKeyValueObservingOptionNew context:nil];
+    //播放完成的监听
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playEnd) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playInterruption) name:AVPlayerItemPlaybackStalledNotification object:nil];
+     //播放中断的监听（如来电）
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playInterruption) name:AVPlayerItemPlaybackStalledNotification object:nil];
     //播放
     self.player = [AVPlayer playerWithPlayerItem:item];
 }
@@ -226,9 +246,9 @@
     CMTime loadTime = CMTimeAdd(timeRange.start, timeRange.duration);
     NSTimeInterval loadTimeSec = CMTimeGetSeconds(loadTime);
     if (isnan(loadTimeSec)) {
-       return 0;
+        return 0;
     }
-    NSLog(@"%f",loadTimeSec);
+//    NSLog(@"%f",loadTimeSec);
     return loadTimeSec / self.totalTime;
     
 }

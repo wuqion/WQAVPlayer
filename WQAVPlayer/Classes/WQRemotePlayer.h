@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger ,WQRemotePlayerState){
-    WQRemotePlayerStateUnknown =0,
-    WQRemotePlayerStateLoading =1,
-    WQRemotePlayerStatePlaying =2,
-    WQRemotePlayerStateStoped =3,
-    WQRemotePlayerStatePause =4,
-    WQRemotePlayerStateFailed =5
+    WQRemotePlayerStateUnknown =0,//未知（如m播放器没有播放）
+    WQRemotePlayerStateLoading =1,//正在加载
+    WQRemotePlayerStatePlaying =2,//正在播放
+    WQRemotePlayerStateStoped =3,//停止
+    WQRemotePlayerStatePause =4,//暂停
+    WQRemotePlayerStateFailed =5//失败（比如没有网络。地址找不到）
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -40,18 +40,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)shareInstance;
 
--(void)playWithURL:(NSURL *)url;
+-(void)playWithURL:(NSURL *)url isCache:(BOOL)isCache;
 
-//暂停
 -(void)pause;
-//重新播放
 -(void)resume;
-//停止
 -(void)stop;
-//快进timeDiffer秒
+
 -(void)seekWithTimeDiffer:(NSTimeInterval)timeDiffer;
-//快进到pregress位置
 -(void)seekWithTimePress:(float)pregress;
+//-(void)setRate:(float)rate;
+//-(void)setMuted:(BOOL)muted;
+//-(void)setVolume:(float)volume;
+
+
 
 @end
 
